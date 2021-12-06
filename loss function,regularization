@@ -1,0 +1,8 @@
+Loss(cost) function
+usual function - regression : MSE=(1/n)*Sigma(y-y')^2
+               - classifier : - LogisiticRegression -> Logistic loss function : -(y*log(a)+(1-y)*log(1-a))
+                              - crossentropy : - binary
+                                               - categorial
+                                               
+Logistic loss function : when y=1(양의 클래스) a have to be 1 for classify correctly
+                         when y=0(음의 클래스) a have to be 0 for classify correctly
